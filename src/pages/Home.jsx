@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Header from '../components/Header/Header'
+import ProfileContainer from '../components/Profile-container/ProfileContainer';
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header/>
+      <ProfileContainer/>
+    </>
   )
 }
 
